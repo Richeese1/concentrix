@@ -65,7 +65,7 @@ const HomePage = () => {
   return (
     <div className="homepage-container">
       <div className="flexbox-item">
-        <img src="/HomePage/Richard.jpg" alt="Image 1" />
+        <img src="./HomePage/Richard.jpg" alt="Image 1" />
         <div className="description-box1">Richard Lopez<br/> <br/>Bachelor of Science in Computer Science<br/><br/>St. Clare College of Caloocan<br/><br/>"Sir ako din po malalate mag re-render nalang po ako"</div>
       </div>
       <div className="flexbox-item">

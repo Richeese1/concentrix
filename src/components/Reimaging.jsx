@@ -1,7 +1,9 @@
 import React from 'react';
-import './ModuleStyles.css'; // Import the updated CSS
+import './ModuleStyles.css';
+import dog from '../asset/images/dog.jpg'
 
 const ModuleComponent = () => {
+  console.log(process.env);
   return (
     <div className="module-container">
       <h1 className="component-title">1. Re-imaging an operating system</h1>
@@ -11,12 +13,11 @@ const ModuleComponent = () => {
         </p>
       </div>
       <div className="component-images">
-        <img src="/Images/Reimage/1.jpg" alt="Image 1" />
-        <img src="/Images/Reimage/2.jpg" alt="Image 2" />
+        <img src="https://thumbor.forbes.com/thumbor/fit-in/1290x/https://www.forbes.com/advisor/wp-content/uploads/2023/07/top-20-small-dog-breeds.jpeg.jpg" alt="Image 1" />
+        <img src={dog} alt="Image 2" />
         <img src="/Images/Reimage/3.jpg" alt="Image 3" />
         <img src="/Images/Reimage/4.jpg" alt="Image 4" />
         <img src="/Images/Reimage/5.jpg" alt="Image 5" />
-        {/* Add more images as needed */}
       </div>
     </div>
   );

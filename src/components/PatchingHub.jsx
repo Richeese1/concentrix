@@ -10,11 +10,11 @@ const PatchingHub = () => {
         </p>
       </div>
       <div className="component-images">
-        <img src="/Images/PatchingHub/1.jpg" alt="Example Image 1" />
-        <img src="/Images/PatchingHub/2.jpg" alt="Example Image 2" />
-        <img src="/Images/PatchingHub/3.jpg" alt="Example Image 3" />
-        <img src="/Images/PatchingHub/4.jpg" alt="Example Image 4" />
-        <img src="/Images/PatchingHub/5.jpg" alt="Example Image 5" />
+        <img src="/Images/PatchingHub/1.jpg" alt="Image 1" />
+        <img src="/Images/PatchingHub/2.jpg" alt="Image 2" />
+        <img src="/Images/PatchingHub/3.jpg" alt="Image 3" />
+        <img src="/Images/PatchingHub/4.jpg" alt="Image 4" />
+        <img src="/Images/PatchingHub/5.jpg" alt="Image 5" />
       </div>
     </div>
   );
